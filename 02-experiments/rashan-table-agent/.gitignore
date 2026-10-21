@@ -1,0 +1,14 @@
+# data cache — never commit (large + keep the public repo clean)
+data/
+*.npy
+*.faiss
+# secrets
+.env
+.env.*
+# notebook cruft
+.ipynb_checkpoints/
+.DS_Store
+
+# scratch output from notebook demo cells
+results_demo/
+results_smoketest/

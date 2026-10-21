@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+.DS_Store
+*.npy
+.env
+.env.*
+
+# scratch output from notebook demo cells
+results_demo/
+results_smoketest/
